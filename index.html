@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DevFolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2tkfE0siZt3dK7t1Q+gR5V5+XU0x5a2fL4i1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar glass">
+      <nav class="nav-container">
+        <!-- Logo -->
+        <a href="#home" class="logo glow-text">&lt;Mehedi Hasan/&gt;</a>
+
+        <!-- Desktop Nav -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Resume -->
+        <a href="#" class="btn glow-btn"
+          ><i class="fa-solid fa-download" aria-hidden="true"></i> Resume</a
+        >
+
+        <!-- Mobile Toggle -->
+        <div class="menu-toggle" id="menuToggle">☰</div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#" class="resume-btn glow-btn"
+          ><i class="fa-solid fa-download" aria-hidden="true"></i> Resume</a
+        >
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <!-- LEFT -->
+        <div class="hero-text">
+          <p class="intro">👋 Hello, I'm</p>
+
+          <h1 class="typewriter">
+            <span>Mehedi </span>
+            <span class="glow">Hasan</span>
+          </h1>
+
+          <h2>Full-Stack Developer • Problem Solver • Software Engineering Student</h2>
+
+          <p class="desc">
+          I build scalable full-stack applications using MERN and Next.js, and solve complex problems through competitive programming. Passionate about clean architecture, performance, and real-world impact.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn secondary-btn"
+              ><i class="fas fa-arrow-down" aria-hidden="true"></i> View
+              Projects</a
+            >
+
+            <a href="#contact" class="btn primary-btn"
+              ><i class="fas fa-envelope" aria-hidden="true"></i> Contact Me</a
+            >
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="hero-image">
+          <div class="glass image-card">
+            <img
+              src="src/unnamed.jpg"
+              alt="Profile Picture"
+              height="100%"
+              width="100%"
+              class="profile-pic"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-card reveal">
+        <h2 class="section-title">About <span class="glow">Me</span></h2>
+
+        <div class="section-divider"></div>
+
+        <p class="about-text">
+          I'm a passionate Software Engineering student who loves building
+          full-stack applications and solving real-world problems. With a strong
+          foundation in modern web technologies, I strive to create impactful
+          digital experiences.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-item">
+            <div class="icon-block"><i class="fas fa-graduation-cap"></i></div>
+            <div class="item-text">
+              <h4>Education</h4>
+              <p>B.Sc. in Software Engineering</p>
+               <p>Shahjalal University of Science and Technology</p>
+            </div>
+          </div>
+
+          <div class="about-item">
+            <div class="icon-block"><i class="fas fa-bullseye"></i></div>
+            <div class="item-text">
+              <h4>Goal</h4>
+              <p>Build scalable, impactful products</p>
+            </div>
+          </div>
+
+          <div class="about-item">
+            <div class="icon-block"><i class="fas fa-heart"></i></div>
+            <div class="item-text">
+              <h4>Interests</h4>
+              <p>Open source,Problem Solving, Data Science,Software Architecture</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">My <span class="glow">Skills</span></h2>
+
+      <div class="section-divider"></div>
+
+      <div class="skills-grid reveal">
+        <!-- Frontend -->
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="icon-block"><i class="fas fa-code"></i></div>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span>React</span>
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>Tailwind CSS</span>
+            <span>HTML/CSS</span>
+             <span>Flutter</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="icon-block"><i class="fas fa-server"></i></div>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>Fast API</span>
+            <span>Firebase</span>
+            <span>REST APIs</span>
+            <span>GraphQL</span>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="icon-block"><i class="fas fa-database"></i></div>
+            <h3>Database</h3>
+          </div>
+          <div class="skill-tags">
+            <span>MongoDB</span>
+            <span>PostgreSQL</span>
+            <span>Redis</span>
+            <span>MSSQL</span>
+            <span>Prisma</span>
+            <span>SQL Alchemy</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="icon-block"><i class="fas fa-wrench"></i></div>
+            <h3>Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>Docker</span>
+            <span>VS Code</span>
+            <span>Figma</span>
+            <span>Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <canvas id="starfield"></canvas>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Featured <span class="glow">Projects</span></h2>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+      <h2 class="section-title">Work <span class="glow">Experience</span></h2>
+      <div class="timeline-container" id="timelineContainer"></div>
+    </section>
+
+    <!-- Competitive Programming Section -->
+    <section id="cp" class="cp-section">
+      <h2 class="section-title">
+        Competitive <span class="glow">Programming</span>
+      </h2>
+
+      <div class="section-divider"></div>
+
+      <div class="cp-card glass reveal">
+        <div class="cp-stats">
+          <div class="stat">
+            <div class="stat-header">
+              <i class="fas fa-code icon"></i>
+              <span class="label">Problems Solved</span>
+            </div>
+            <p class="value glow-text" data-target="300">0</p>
+          </div>
+
+          <div class="stat">
+            <div class="stat-header">
+              <i class="fas fa-trophy icon"></i>
+              <span class="label">Max Rating</span>
+            </div>
+            <p class="value glow-text" data-target="951">0</p>
+          </div>
+        </div>
+
+        <div class="cp-link">
+          <a
+            href="https://codeforces.com/profile/_maruf"
+            target="_blank"
+            class="btn glow-btn"
+          >
+            <i class="fas fa-external-link-alt"></i> View Codeforces Profile
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Get In <span class="glow">Touch</span></h2>
+      <div class="section-divider"></div>
+
+      <div class="contact-grid">
+        <!-- Form -->
+        <form id="contactForm" class="contact-form glass">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          />
+          <textarea
+            id="message"
+            placeholder="Your message..."
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit" class="glow-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+
+        <!-- Social links -->
+        <div class="contact-social">
+          <p>I'm open to new projects, ideas, or opportunities. Reach out!</p>
+          <a href="#" class="social-link">
+            <div class="icon"><i class="fab fa-github"></i></div>
+            <div>
+              <p>GitHub</p>
+              <small>github.com/maruf6890</small>
+            </div>
+          </a>
+          <a href="#" class="social-link">
+            <div class="icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <p>LinkedIn</p>
+              <small>linkedin.com/in/maruf6890</small>
+            </div>
+          </a>
+          <a href="mailto:maruf6890@gmail.com" class="social-link">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p>Email</p>
+              <small>maruf6890@gmail.com</small>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Toast -->
+      <div id="toast" class="toast">Message sent successfully!</div>
+    </section>
+    <footer class="footer glass">
+      <div class="footer-container">
+        <p class="footer-text">
+          &copy; <span id="year"></span> <span class="glow">Mehedi Hasan Maruf</span> —
+          All rights reserved.
+        </p>
+        <div class="footer-social">
+          <a href="https://github.com/maruf6890" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/maruf6890" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:maruf6890@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <!-- FontAwesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Optional: EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </body>
+</html>
